@@ -1,0 +1,198 @@
+@font-face {
+    font-family: Toyota Display; /* Гарнитура шрифта */
+    src: url(fonts/toyota_display.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body{
+
+	font-family: Toyota Display;
+}
+
+
+.wrapper {
+	max-width: 1000px;
+
+}
+.navbar-header button{
+	border:0px;
+}
+
+.navbar-header img {
+	display: none;
+}
+.log-block {
+	margin-top: 50px;
+	height: 95px;
+	-webkit-box-shadow: 0 4px 2px -2px gray;
+	-moz-box-shadow: 0 4px 2px -2px gray;
+	box-shadow: 0 4px 2px -2px gray;
+}
+
+.log-block img{
+	float: left;
+	width: 244px;
+	padding: 23px 0px;
+	
+}
+
+
+.log-block .col-lg-8 p{
+	display: block;
+	float: left;
+	width: 206px;
+	font-size: 17px;
+	color: #4d535e;
+	padding-top: 18px;
+	padding-left: 10px;
+	height: 95px;
+}
+
+.log-block p.phone-call {
+	display: none;
+}
+
+
+.log-block .col-lg-4 p{
+	color: #656972;
+	font-size: 14px;
+	margin-top: 13px;
+}
+
+.bg-l {
+	width: 50%;
+	float: left;
+	height: 516px;
+	background: url(../img/bg-l.jpg);
+	background-position: left;
+}
+.bg-r {
+	width: 50%;
+	float: right;
+	height: 516px;
+	background: url(../img/bg-r.jpg);
+	background-position: left;
+}
+
+.bg-top-block {
+	background: url(../img/center-bg.jpg);	
+	height: 516px;
+	margin-top: -516px;
+
+}
+
+.bg-top {
+	height: 516px;
+	margin-top: 516px;
+	background: url(../img/center-bg.jpg);	
+}
+
+.btn-my-call {
+	border-radius: 0px;
+	color: #3b3b3b;
+	padding: 0px 30px;
+	line-height: 35px;
+	font-weight: bold;
+	background-color: #ffb83b;
+}
+
+
+.navbar {
+	background-color: #545a65;
+	background-image: linear-gradient(-45deg, #5b616c 50%, #545a65 50%);
+}
+.navbar-nav {
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.navbar-nav li{
+	
+	margin-left: 15px;
+}
+.navbar-nav  li a{
+	color: #fff !important;
+	font-size: 16px;
+}
+
+.navbar-nav  li a:hover{
+	color: #bbc0c8 !important;
+}
+.phone-call{
+	font-size: 24px;
+	color: #bbc0c8;
+	line-height: 50px;
+}
+
+.phone-call span{
+	color: #f4b408;
+} 
+
+
+
+@media (min-width: 761px) and (max-width: 1199px){
+	.log-block {
+		margin-top: 100px;
+	}	
+
+}
+
+@media (min-width: 750px) and (max-width: 970px){
+
+	.log-block .col-lg-4 p{
+		display: none;
+	}
+	.log-block .col-lg-4 button{
+		margin-top: 30px;
+	}
+
+}
+
+/*Style mobile and tablet*/
+
+@media (max-width: 750px) {
+	/*Header*/
+	.navbar-nav .phone-call{
+		display: none;
+	}
+	.log-block img, .log-block .col-lg-8 p, .log-block .col-lg-4{
+		display: none;
+	}
+
+	.log-block p.phone-call {
+		display: block;
+		font-size: 24px;
+		text-align: center;
+		width: 100%;
+		line-height: 65px;
+		height: 65px;
+		padding: 0px;
+	}
+
+	.log-block {
+		height: 65px;
+		margin-top: 50px;
+	}
+
+
+	.navbar {
+	-webkit-box-shadow: 0 4px 2px -2px gray;
+	-moz-box-shadow: 0 4px 2px -2px gray;
+	box-shadow: 0 4px 2px -2px gray;
+	}
+
+	.navbar-header img {
+	display: block;
+	height: 28px;
+	margin: 10px 0px 0px 10px;
+	float: left;
+	}
+
+	.navbar-nav li{	
+	margin-left: 0px;
+	}
+
+	
+	
+	
+}
