@@ -16,7 +16,7 @@
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
-.slick-prev,
+
 .slick-next
 {
     font-size: 0;
@@ -27,18 +27,45 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 97px;
+    height: 97px;
     margin-top: -10px;
     padding: 0;
 
     cursor: pointer;
-
-    color: transparent;
     border: none;
     outline: none;
-    background: transparent;
+
+    background-image: url('../img/arrow_carousel_r.png');
+    background-color: rgba(0,0,0,0);
 }
+
+
+.slick-prev
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 97px;
+    height: 97px;
+    margin-top: -10px;
+    padding: 0;
+
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+    background-image: url('../img/arrow_carousel_l.png');
+    background-color: rgba(0,0,0,0);
+}
+
+
+
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
@@ -46,7 +73,7 @@
 {
     color: transparent;
     outline: none;
-    background: transparent;
+
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -84,14 +111,14 @@
     right: -25px;
     left: auto;
 }
-.slick-prev:before
+/*.slick-prev:before
 {
     content: '←';
 }
 [dir='rtl'] .slick-prev:before
 {
     content: '→';
-}
+}*/
 
 .slick-next
 {
@@ -102,7 +129,7 @@
     right: auto;
     left: -25px;
 }
-.slick-next:before
+/*.slick-next:before
 {
     content: '→';
 }
@@ -110,7 +137,7 @@
 {
     content: '←';
 }
-
+*/
 /* Dots */
 .slick-slider
 {
