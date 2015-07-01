@@ -419,11 +419,48 @@ h2 {
 	color:#fff;
 }
 
+.block-how-work {
+	background: #4077aa;
+	margin-top: 100px;
+}
+
+.block-how-work h2 {
+	background: rgba(0,0,0,0.6);
+	color:#fff;
+	padding: 10px;
+	font-size: 36px;
+	max-width: 380px;
+	overflow: hidden;
+	margin-top: -25px;
+	margin-bottom: 60px;
+}
+
+.block-how-work p {
+	font-size: 17px;
+	padding: 10px;
+	color:#fff;
+}
+
+.how-work-bg {
+	width: 35%;
+	height: 250px;
+	background-image: url(../img/how_work_bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+	display: block;
+	background-size: 100%;
+	/*border: 1px solid red;*/
+	margin: -220px 0px 0px 0px;
+	float: right;
+}
+
 
 /*Netbook version*/
 @media (min-width: 761px) and (max-width: 1199px){
 	.log-block {
 		margin-top: 100px;
+
 	}
 
 }
@@ -484,6 +521,7 @@ h2 {
 	.assorti .assorti-2 img {
 		width: 100%;
 	}
+	.how-work-bg {display: none;}
 	
 
 }
@@ -499,6 +537,7 @@ h2 {
 	.log-block .col-lg-4 button{
 		margin-top: 30px;
 	}
+	.how-work-bg {display: none;}
 
 }
 
@@ -604,6 +643,7 @@ h2 {
 	.assorti .assorti-2 img {
 		width: 100%;
 	}
+	.how-work-bg {display: none;}
 
 	
 	

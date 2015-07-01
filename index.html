@@ -8,10 +8,11 @@
     <title>PETROENERGO</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -113,16 +114,14 @@
 
    <!-- Gallery block -->
   <div class="container-fluid bg-top">
-    <div class="container wrapper carousel-top">
+    <div class="container-fluid wrapper carousel-top">
 
-   
-      <div class="row text-center">
-
+      <div class="row text-center  wrapper">
         <div class="col-xs-12 col-sm-12 col-md-12 block-name-slide-block">
           <h1 class="text-center block-name-slide">Бесшумные <span>Газовые Электрогенераторы</span> от 6кВт. с автозапуском</h1>
         </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-6 block-image-slide">         
+        <div class="col-xs-12 col-sm-12 col-md-6 block-image-slide">
             <img src="img/first_slide.png">
         </div>
 
@@ -135,13 +134,12 @@
       </div>
 
 
-      <div class="row text-center">
-
+          <div class="row text-center  wrapper">
         <div class="col-xs-12 col-sm-12 col-md-12 block-name-slide-block">
           <h1 class="text-center block-name-slide">Бесшумные <span>Газовые Электрогенераторы</span> от 6кВт. с автозапуском</h1>
         </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-6 block-image-slide">         
+        <div class="col-xs-12 col-sm-12 col-md-6 block-image-slide">
             <img src="img/first_slide.png">
         </div>
 
@@ -153,8 +151,6 @@
 
       </div>
 
-        
-     
      
       </div>
 
@@ -772,45 +768,47 @@
   <!-- / Goods Block -->
 
   <!-- How work -->
-    <div class="container-fluid text-center">
-      <h2>Как мы работаем</h2>
+    <div class="container-fluid text-center block-how-work ">
+    <div class="container-fluid wrapper">
+      <h2 class="center-block">Как мы работаем</h2>
       <div class="row">
-        <div class="col-lg-2 col-lg-offset-1">
-          <img src="img/icon1.jpg">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-md-offset-1">
+          <img src="img/how_work_1.png">
           <p>Входящий звонок</p>            
         </div>
-        <div class="col-lg-2">
-          <img src="img/icon1.jpg">
+        <div class="col-xs-12 col-sm-3 col-md-2">
+           <img src="img/how_work_2.png">
           <p>Консультация специалиста</p>            
         </div>
-        <div class="col-lg-2">
-          <img src="img/icon1.jpg">
+        <div class="col-xs-12 col-sm-3 col-md-2">
+           <img src="img/how_work_3.png">
           <p>Выезд Инженера</p>            
         </div>
-        <div class="col-lg-2">
-          <img src="img/icon1.jpg">
+        <div class="col-xs-12 col-sm-3 col-md-2">
+           <img src="img/how_work_4.png">
           <p>Согласование коммерческий условий</p>            
         </div>
-        <div class="col-lg-2">
-          <img src="img/icon1.jpg">
+        <div class="col-xs-12 col-sm-3 col-md-2">
+           <img src="img/how_work_5.png">
             <p>Заключение договора на поставку и/или монтаж оборудования</p>
-        </div>          
-      </div>
-
-      <div class="row">
-        <div class="col-lg-2 col-lg-offset-1">
-          <img src="img/icon1.jpg">
+        </div>  
+          <div class="col-xs-12 col-sm-3 col-md-2 col-md-offset-1">
+          <img src="img/how_work_7.png">
           <p>Выполнение договорных обязательств</p>            
         </div>
-        <div class="col-lg-2">
-          <img src="img/icon1.jpg">
+        <div class="col-xs-12 col-sm-3 col-md-2">
+          <img src="img/how_work_8.png">
           <p>Подписание акта сдачи-приемки выполненных работ</p>            
         </div>
-        <div class="col-lg-2">
-          <img src="img/icon1.jpg">
+        <div class="col-xs-12 col-sm-3 col-md-2">
+          <img src="img/how_work_9.png">
           <p>Результат: бесперебойное электроснабжение дома</p>            
-        </div>        
+        </div>           
       </div>
+      <div class="how-work-bg pull-right"></div>
+
+      
+    </div>
     </div>
     <!-- /How work -->
 
@@ -974,7 +972,12 @@
     <script type="text/javascript" src="slick/slick.min.js"></script>
 
     <script type="text/javascript">
-      $('.carousel-top').slick();
+      $('.carousel-top').slick({
+        infinite: true,      
+        slidesToShow: 1,
+        slidesToScroll: 1
+
+      });
     </script>
 
     <script>
