@@ -1,6 +1,6 @@
 @font-face {
     font-family: Toyota Display; /* Гарнитура шрифта */
-    src: url(fonts/toyota_display.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/toyota_display.ttf); /* Путь к файлу со шрифтом */
    }
 
 body{
@@ -343,6 +343,82 @@ h2 {
 	height: 20px;
 	width: 30px;
 }
+
+
+/*Goods block*/
+.good-block-general {
+	padding: 0px;
+	border: 1px solid #d0d6e2;
+	margin-top: 16px;
+}
+
+.good-block-general .block-img-good img {
+	border-right: 1px solid #d0d6e2;
+	padding: 5px;
+	width: 100%;
+	
+}
+
+.good-block-general h4 {
+	color: #f09f0b;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px 0px;
+}
+
+
+.optins-goods {
+
+}
+
+
+
+.optins-goods p {
+	color: #414141;
+	font-size: 15px;
+}
+.optins-goods img {
+	width: 18px;
+	float: left;
+	margin-right: 15px;
+}
+
+.optins-goods img:first-child {
+	width: 10px;
+	float: left;
+	margin-right: 15px;
+}
+
+.block-more-good {
+	background-color: #448ab2;
+	height: 100% !important;
+	padding-bottom: 20px;
+
+}
+
+.block-more-good .catalog-btn,.block-more-good .btn-border {
+	width: 60%;
+	padding-left: 3px; 
+	padding-right: 3px; 
+	margin: 5px 0px;
+}
+.block-more-good .btn-border {
+ border: 1px solid #ffc53b;
+}
+
+.block-more-good p {
+	font-size: 32px;
+	color:#fff;
+	margin-bottom: 20px;
+	line-height: 36px;
+	padding-top: 42px;
+}
+
+.block-more-good p span{
+	font-size: 22px;
+	color:#fff;
+}
+
 
 /*Netbook version*/
 @media (min-width: 761px) and (max-width: 1199px){
