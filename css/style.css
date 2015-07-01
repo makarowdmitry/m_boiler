@@ -8,6 +8,11 @@ body{
 	font-family: Toyota Display;
 }
 
+h2 {
+	font-size: 36px;
+	color: #434343;
+	padding: 30px 5px;
+}
 
 .wrapper {
 	max-width: 1000px;
@@ -210,6 +215,66 @@ body{
 
 
 
+.assorti .col-sm-4, .assorti .col-sm-6{
+	padding: 0px;
+}
+
+.assorti .assorti-1 img {
+	width: 100%;
+}
+
+.assorti .assorti-2 img {
+	width: 100%;
+}
+	
+
+
+.btn-assorti {
+	background-color: #f1f2f3;
+	padding: 20px 0px !important;
+	width: 100% !important;
+	margin: 0px !important;
+
+}
+
+
+.catalog-btn {
+	padding: 8px 20px;
+	color: #3b3b3b;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	background: linear-gradient(to top, #ffb83b 0% , #ffca3b 80%);
+	font-weight: bold;
+	border:none;
+	outline: none;
+	margin: 5px;
+
+}
+
+.catalog-btn:hover {
+	background: linear-gradient(to top, #ffca3b 0% , #ffb83b 80%);
+}
+
+
+.call-us-btn {
+	padding: 8px 20px;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	background: linear-gradient(to top, #458bb3 0% , #69c0f2  80%);
+	font-weight: bold;
+	border:none;
+	outline: none;
+	margin: 5px;
+
+}
+
+.call-us-btn:hover {
+	background: linear-gradient(to top, #69c0f2 0% , #458bb3  80%);
+}
+
 
 /*Netbook version*/
 @media (min-width: 761px) and (max-width: 1199px){
@@ -261,6 +326,19 @@ body{
 	.slick-prev {
     	left: 0px !important;
 
+	}
+	
+	.assorti .col-sm-4, .assorti .col-sm-6{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.assorti .assorti-1 img {
+		width: 100%;
+	}
+
+	.assorti .assorti-2 img {
+		width: 100%;
 	}
 	
 
@@ -368,6 +446,19 @@ body{
 	.slick-prev {
     	left: 0px !important;
 
+	}
+
+	.assorti .col-sm-4, .assorti .col-sm-6{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.assorti .assorti-1 img {
+		width: 100%;
+	}
+
+	.assorti .assorti-2 img {
+		width: 100%;
 	}
 
 	
