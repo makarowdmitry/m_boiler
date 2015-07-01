@@ -220,15 +220,16 @@
   <!-- / Assortment Block -->
 
    <!-- Goods Block -->
-  <div class="container-fluid">
+  <div class="container-fluid wrapper">
    <div class="text-center">
     <h2>Лидеры продаж</h2>
 
     <!-- Filter -->
-     <div class="filter-block">
-      <h3>Фильтер</h3>
+     <div class="filter-block text-left">
+      <h3 class="text-center">Фильтер</h3>
       <div class="row">
-        <div class="col-lg-4">
+
+      <!--   <div class="col-lg-4">
           <label>Сортировка по:</label>
             <select class="form-control">
             <option>Цене</option>
@@ -239,8 +240,9 @@
             </select>
           <button>top</button>
           <button>bottom</button>
-        </div>
-        <div class="col-lg-4">
+        </div> -->
+
+        <div class="col-sx-12 col-md-6 filter-in">
           <label>Производитель</label>
             <select class="form-control">
             <option>Generac</option>
@@ -250,7 +252,7 @@
             <option>5</option>
             </select>
         </div>
-        <div class="col-lg-4">          
+        <div class="col-sx-12  col-md-6 filter-in">          
           <label>Топливо</label>
             <select class="form-control">
             <option>Generac</option>
@@ -263,19 +265,24 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-6">        
+        <div class="col-sx-12  col-md-6 filter-in filter-scroll">        
           <label for="amount">Цена:</label>
           <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
           <div id="slider-range_price"></div>
         </div>
 
-        <div class="col-lg-6">        
+        <div class="col-sx-12 col-md-6 filter-in filter-scroll">        
           <label for="amount2">Мощность:</label>
           <input type="text" id="amount2" readonly style="border:0; color:#f6931f; font-weight:bold;">
           <div id="slider-range_power"></div>
         </div>
       </div>
-    </div> <!-- /Filter -->
+    </div>
+    <div class="container-fluid wrapper text-center">
+    <div class="arrow-filter center-block"></div>
+      
+    </div>
+    <!-- /Filter -->
 
     <!-- Goods -->
 
