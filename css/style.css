@@ -139,6 +139,7 @@ body{
 	color: #fff;
 	padding-top: 20px;
 	padding-bottom: 52px;
+	font-size: 36px;
 
 }
 
@@ -163,10 +164,10 @@ body{
 
 
 .carousel-top  .block-right-slide{
-	background: rgba(96, 125, 177, 0.8);
-	padding: 240px 34px;
-	margin-top: -180px;
-	height: 516px;
+	/*background: rgba(96, 125, 177, 0.8);*/
+	padding: 40px 34px;
+	/*margin-top: -180px;*/
+	/*border:1px solid red;*/
 	color: #121212;
 	font-size: 24px;
 }
@@ -209,23 +210,65 @@ body{
 
 
 
-@media (min-width: 768px) {
-	.carousel-top .col-xs-12.block-right-slide{
-		background: none;
 
+/*Netbook version*/
+@media (min-width: 761px) and (max-width: 1199px){
+	.log-block {
+		margin-top: 100px;
 	}
 
 }
 
 
-
-@media (min-width: 761px) and (max-width: 1199px){
+/*Netbook version2*/
+@media (min-width: 768px) and (max-width: 992px){
 	.log-block {
 		margin-top: 100px;
-	}	
+	}
+	.block-name-slide-block .block-name-slide {
+		font-size: 24px;
+		margin: 0px;
+		padding: 30px 20px 30px 20px;
+
+	}
+	.block-right-slide  p{
+		padding: 0px;
+		margin: 0px;
+		font-size: 18px;
+
+	}
+	.block-image-slide img{
+		margin: 0 auto;
+		padding: 0px;
+		float: none;
+		width: 45%;
+
+	}
+
+	.slick-next, .slick-prev {
+		width: 66px !important;
+    	height: 66px !important;
+    	margin-top: -33px !important;
+    	background-size: 66px;
+    	background-position: center center;
+    	background-repeat: none;
+	}
+
+	.slick-next {
+    	right: 10px !important;
+	}
+
+	.slick-prev {
+    	left: 0px !important;
+
+	}
+	
 
 }
 
+
+
+/*Tablet version*/
 @media (min-width: 750px) and (max-width: 970px){
 
 	.log-block .col-lg-4 p{
@@ -237,9 +280,11 @@ body{
 
 }
 
-/*Style mobile and tablet*/
 
-@media (max-width: 750px) {
+
+/*Mobile version*/
+
+@media (max-width: 768px) {
 	/*Header*/
 	.navbar-nav .phone-call{
 		display: none;
@@ -279,6 +324,50 @@ body{
 
 	.navbar-nav li{	
 	margin-left: 0px;
+	}
+
+
+	.block-name-slide-block .block-name-slide {
+		font-size: 24px;
+		margin: 0px;
+		padding: 30px 20px 30px 20px;
+
+	}
+	.block-right-slide  p{
+		padding: 0px;
+		margin: 0px;
+		font-size: 18px;
+
+	}
+
+	.block-right-slide .btn {
+		margin-top: 10px;
+	}
+
+	.block-image-slide img{
+		margin: 0 auto;
+		padding: 0px;
+		float: none;
+		width: 55%;
+
+	}
+
+	.slick-next, .slick-prev {
+		width: 66px !important;
+    	height: 66px !important;
+    	margin-top: -33px !important;
+    	background-size: 66px;
+    	background-position: center center;
+    	background-repeat: none;
+	}
+
+	.slick-next {
+    	right: 10px !important;
+	}
+
+	.slick-prev {
+    	left: 0px !important;
+
 	}
 
 	
