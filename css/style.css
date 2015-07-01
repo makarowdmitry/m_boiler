@@ -41,7 +41,7 @@ h2 {
 }
 
 
-.log-block .col-lg-8 p{
+.log-block .col-md-8 p{
 	display: block;
 	float: left;
 	width: 206px;
@@ -49,7 +49,7 @@ h2 {
 	color: #4d535e;
 	padding-top: 18px;
 	padding-left: 10px;
-	height: 95px;
+	height: 65px;
 }
 
 .log-block p.phone-call {
@@ -57,7 +57,7 @@ h2 {
 }
 
 
-.log-block .col-lg-4 p{
+.log-block .col-md-4 p{
 	color: #656972;
 	font-size: 14px;
 	margin-top: 13px;
@@ -565,10 +565,10 @@ h2 {
 /*Tablet version*/
 @media (min-width: 750px) and (max-width: 970px){
 
-	.log-block .col-lg-4 p{
+	.log-block .col-md-4 p{
 		display: none;
 	}
-	.log-block .col-lg-4 button{
+	.log-block .col-md-4 button{
 		margin-top: 30px;
 	}
 	.how-work-bg {display: none;}
@@ -584,7 +584,7 @@ h2 {
 	.navbar-nav .phone-call{
 		display: none;
 	}
-	.log-block img, .log-block .col-lg-8 p, .log-block .col-lg-4{
+	.log-block img, .log-block .col-md-8 p, .log-block .col-md-4{
 		display: none;
 	}
 
