@@ -27,7 +27,23 @@ form input:focus{
 	border: 1px solid #000 !important;
 }
 
+a.catalog-btn {
+	display: block;
+	color:303030;
+}
 
+
+a.catalog-btn:hover,a.catalog-btn:active, a.catalog-btn:visited{
+
+	color:303030;
+}
+
+/*a.catalog-btn{
+	max-width: 200px;
+	text-align: center;
+	margin: 0 auto;
+}
+*/
 .wrapper {
 	max-width: 1000px;
 
@@ -262,12 +278,14 @@ form input:focus{
 	font-weight: bold;
 	border:none;
 	outline: none;
-	margin: 5px;
+	margin: 5px 5px 15px 5px;
+	text-decoration: none;
 
 }
 
 .catalog-btn:hover {
 	background: linear-gradient(to top, #ffca3b 0% , #ffb83b 80%);
+	text-decoration: none;
 }
 
 
@@ -415,7 +433,7 @@ form input:focus{
 	width: 60%;
 	padding-left: 3px; 
 	padding-right: 3px; 
-	margin: 5px 0px;
+	margin: 5px 5px 15px 5px;
 }
 .block-more-good .btn-border {
  border: 1px solid #ffc53b;

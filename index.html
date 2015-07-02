@@ -22,7 +22,7 @@
     <![endif]-->
   </head>
   <body>
-  <div class="container wrapper">
+  <div class="container wrapper" id="home">
     <!-- Navbar -->
     <nav class="navbar navbar-fixed-top navbar-inverse">
     <div class="container">
@@ -41,12 +41,12 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">          
-          <li><a href="#">Главная</a></li>
-          <li><a href="#">Ассортимент</a></li>
-          <li><a href="#">Лидеры продаж</a></li>
-          <li><a href="#">Мы предлагаем</a></li>
-          <li><a href="#">Выезд специалиста</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#assorti">Ассортимент</a></li>
+          <li><a href="#lider">Лидеры продаж</a></li>
+          <li><a href="#offer">Мы предлагаем</a></li>
+          <li><a href="#master">Выезд специалиста</a></li>
+          <li><a href="#cotacts">Контакты</a></li>
           <li class="phone-call"><span>+7 (812)</span> 648-17-66</li>
         
         </ul>
@@ -71,7 +71,17 @@
         <button class="btn btn-my-call" data-toggle="modal" data-target="#Modalcall">Заказать звонок</button>
           <!-- Modal call-order -->
 
-          <!-- Modal -->
+         
+
+
+
+
+      </div>
+    </div>
+    </div><!-- /.wrapper -->
+  </div>
+
+   <!-- Modal -->
           <div class="modal fade" id="Modalcall" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog text-left" role="document">
               <div class="modal-content">
@@ -98,14 +108,6 @@
               </div>
             </div>
           </div>
-
-
-
-
-      </div>
-    </div>
-    </div><!-- /.wrapper -->
-  </div>
   
 
 <!--   <div class="bg-l"></div>
@@ -164,7 +166,7 @@
 
 
   <!-- Assortment Block -->
-  <div class="container-fluid wrapper">
+  <div class="container-fluid wrapper" id="assorti">
    <div class="text-center">
     <h2>Ассортимент</h2>
     <div class="assorti">
@@ -204,7 +206,7 @@
     <div class="btn-assorti container-fluid">
     <div class="row">
       <div class="col-md-12">
-      <button class="catalog-btn">Каталог продукции</button>
+      <button  href="#lider" class="catalog-btn">Каталог продукции</button>
       <button class="call-us-btn" data-toggle="modal" data-target="#Modalcall">Связаться с нами</button>
         
       </div>
@@ -216,7 +218,7 @@
   <!-- / Assortment Block -->
 
    <!-- Goods Block -->
-  <div class="container-fluid wrapper">
+  <div class="container-fluid wrapper" id="lider">
    <div class="text-center">
     <h2>Лидеры продаж</h2>
 
@@ -313,10 +315,171 @@
         </div>
           <div class="col-sx-12 col-sm-3 col-md-3 block-more-good">
               <p>179 000<br/><span>руб</span></p>
-              <button class="catalog-btn">Купить</button>
+              <button class="catalog-btn" data-toggle="modal" data-target="#myModalbuy">Купить</button>
               <button class="btn btn-border" data-toggle="modal" data-target="#myModal">Подробнее</button>  
           </div>
          </div>
+
+
+          <!-- Modal Buy more-->
+          <div class="modal fade modal-goods" id="myModalbuy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-goods-body" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Предварительный заказ</h4>
+                </div>
+                <div class="modal-body">
+                  <h4 class="text-left title-goods">Guardian, модель 6269</h4>
+                  <div class="row">
+
+                    <div class="col-md-6 block-image"><img src="img/good1.jpg"></div>
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-sx-12 col-sm-6 col-md-6 text-left price-block-modal">
+                          <p>179000<span>руб</span></p>
+                        </div>
+                              
+                      </div> 
+
+                       <div class="row row-options">
+                        <div class="col-xs-12 col-sm-6 col-md-6 text-left">
+
+                          <div class="row">
+                            <div class="col-xs-12 col-md-12">
+                            <img src="img/icon_goods1.png">
+                            <p>8кВА 8кВА </p>
+                            </div>
+                             <div class="col-xs-12 col-md-12">
+                            <img src="img/icon_goods2.png">
+                            <p>8кВА</p>
+                            </div>
+                             <div class="col-xs-12 col-md-12">
+                            <img src="img/icon_goods3.png">
+                            <p>8кВА</p>
+                            </div>
+                            
+                          </div>
+                         
+                              
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 text-left">
+                          <div class="row">
+                            <div class="col-xs-12 col-md-12">
+                            <img src="img/icon_goods4.png">
+                            <p>8кВА</p>
+                            </div>
+                             <div class="col-xs-12 col-md-12">
+                            <img src="img/icon_goods5.png">
+                            <p>8кВА</p>
+                            </div>
+                             <div class="col-xs-12 col-md-12">
+                            <img src="img/icon_goods6.png">
+                            <p>8кВА</p>
+                            </div>
+                            
+                          </div>     
+                        </div>                        
+                      </div>                  
+                    </div>
+                    <div class="clearfix"></div>
+
+                  
+
+                  <h5 class="text-left complect-title">Комплектация</h5>
+                  
+                  <div class="container-fluid complect-block">
+                    
+                  
+                  <div class="row">
+                   
+                    <div class="col-xs-4 col-sm-3  col-md-3 complect-block-good">
+                        <div class="checkbox text-left">
+                        <label>
+                        <input type="checkbox" id="checkboxWarning" value="option1">
+                        </label>
+                      </div>
+                      <img src="img/good2.jpg">
+                      <p>Аккумулятор</p>
+                      <p class="price-complect">150000 руб.</p>
+                    </div>
+
+               
+                    <div class="col-xs-4 col-sm-3  col-md-3 complect-block-good">
+                        <div class="checkbox text-left">
+                        <label>
+                        <input type="checkbox" id="checkboxWarning" value="option1">
+                        </label>
+                      </div>
+                      <img src="img/good2.jpg">
+                      <p>Аккумулятор</p>
+                      <p class="price-complect">150000 руб.</p>
+                    </div>
+
+                    <div class="col-xs-4 col-sm-3  col-md-3 complect-block-good">
+                        <div class="checkbox text-left">
+                        <label>
+                        <input type="checkbox" id="checkboxWarning" value="option1">
+                        </label>
+                      </div>
+                      <img src="img/good2.jpg">
+                      <p>Аккумулятор</p>
+                      <p class="price-complect">150000 руб.</p>
+                    </div>
+
+                    <div class="col-xs-4 col-sm-3  col-md-3 complect-block-good">
+                        <div class="checkbox text-left">
+                        <label>
+                        <input type="checkbox" id="checkboxWarning" value="option1">
+                        </label>
+                      </div>
+                      <img src="img/good2.jpg">
+                      <p>Аккумулятор</p>
+                      <p class="price-complect">150000 руб.</p>
+                    </div>
+
+                   
+                    
+                  </div>
+
+              
+                  
+
+                  </div>
+                      <!-- input modal -->
+                  <div clas="row">
+                    <div class="col-md-12 text-left">
+                      <form class="form-inline order-form">
+                        <div class="form-group">
+                       
+                        <input type="text" class="form-control pull-left" id="exampleInputName2" placeholder="ФИО">
+                        </div>
+                        <div class="form-group">
+                      
+                        <input type="email" class="form-control pull-left" id="exampleInputEmail2" placeholder="Телефон">
+                        </div>
+
+                        <div class="form-group">
+                        <button class="catalog-btn pull-left">Отправить заявку</button>
+                         </div>                      
+                      </form>
+                      </div>
+                      <!-- <div class="col-md-4">
+                        
+                      </div>  -->                 
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+
+
+
+
+
+
+
 
           <!-- Modal Read more-->
           <div class="modal fade modal-goods" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -337,7 +500,7 @@
                           <p>179000<span>руб</span></p>
                         </div>
                         <div class="col-sm-6 col-md-6 text-left">
-                        <button class="catalog-btn">Купить</button>
+                        <a class="catalog-btn" href="#order-form">Купить</a>
                          
                         </div>                        
                       </div> 
@@ -524,7 +687,7 @@
 
                   </div>
                       <!-- input modal -->
-                  <div clas="row">
+                  <div clas="row" id="order-form">
                     <div class="col-md-12 text-left">
                       <form class="form-inline order-form">
                         <div class="form-group">
@@ -550,6 +713,7 @@
                   </div>
                   </div>
                   </div>
+
                   </div>
 
 
@@ -561,7 +725,7 @@
       <div class="row">
        <div class="col-md-12">
         <button class="call-us-btn" data-toggle="modal" data-target="#Modalcall">Связаться с нами</button>
-        <button class="catalog-btn">Каталог продукции</button>
+        <buttom href="#lider" class="catalog-btn">Каталог продукции</buttom>
       </div>
       </div>
       </div>
@@ -617,7 +781,7 @@
 
 
     <!-- We offer -->
- <div class="container-fluid text-center back-block-offer">
+ <div class="container-fluid text-center back-block-offer" id="offer">
  <div class="container-fluid wrapper">
       <h2 class="center-block">Мы предлагаем</h2>
 
@@ -687,7 +851,7 @@
     <!-- /How work -->
 
     <!-- Our ingeneer -->
-    <div class="container-fluid text-center block-ingener">
+    <div class="container-fluid text-center block-ingener" id="master">
     <div class="container-fluid wrapper">
 
       <h2>Наш инженер приедет к Вам бесплатно</h2>
@@ -747,7 +911,7 @@
 
 
 <!-- Maps -->
-<div class="container-fluid text-center maps-block">
+<div class="container-fluid text-center maps-block" id="cotacts">
    <h2>Контакты</h2>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4492.837828608045!2d37.667171526439596!3d55.7338500203855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54adb8372c92d%3A0x53a4ad6aeeb96e53!2z0JzQsNGA0LrRgdC40YHRgtGB0LrQsNGPINGD0LsuLCAzOCwg0JzQvtGB0LrQstCwLCAxMDkxNDc!5e0!3m2!1sru!2sru!4v1433952254838" width="100%" height="400" frameborder="0" style="border:0"></iframe>
 </div>
