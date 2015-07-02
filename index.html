@@ -83,15 +83,15 @@
                   
                     <form>
                       <div class="form-group">
-                      <label for="exampleInputEmail1">Имя</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                     
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Имя">
                       </div>
                       <div class="form-group">
-                      <label for="exampleInputPassword1">Телефон</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                
+                      <input type="phone" class="form-control" id="exampleInputPassword1" placeholder="Телефон">
                       </div>                      
                      
-                      <button type="submit" class="btn btn-default">Отправить заявку</button>
+                      <button type="submit" class="btn catalog-btn">Отправить заявку</button>
                     </form>
 
                 </div>
@@ -205,7 +205,7 @@
     <div class="row">
       <div class="col-md-12">
       <button class="catalog-btn">Каталог продукции</button>
-      <button class="call-us-btn">Связаться с нами</button>
+      <button class="call-us-btn" data-toggle="modal" data-target="#Modalcall">Связаться с нами</button>
         
       </div>
     </div>
@@ -463,104 +463,104 @@
 
                   </table>
 
-                  <h5 class="text-left">Комплектация</h5>
+                  <h5 class="text-left complect-title">Комплектация</h5>
+                  
+                  <div class="container-fluid complect-block">
+                    
+                  
                   <div class="row">
-                    <div class="col-md-3">
-                        <div class="checkbox">
+                   
+                    <div class="col-xs-4 col-sm-3  col-md-3 complect-block-good">
+                        <div class="checkbox text-left">
                         <label>
                         <input type="checkbox" id="checkboxWarning" value="option1">
                         </label>
-                        </div>
-                      <img src="img/goods/good1.png">
-                      <p>Аккамулятор</p>
-                      <p>150000<span>руб.</span></p>
+                      </div>
+                      <img src="img/good2.jpg">
+                      <p>Аккумулятор</p>
+                      <p class="price-complect">150000 руб.</p>
                     </div>
 
-                    <div class="col-md-3">
-                        <div class="checkbox">
+               
+                    <div class="col-xs-4 col-sm-3  col-md-3 complect-block-good">
+                        <div class="checkbox text-left">
                         <label>
                         <input type="checkbox" id="checkboxWarning" value="option1">
                         </label>
-                        </div>
-                      <img src="img/goods/good1.png">
-                      <p>Аккамулятор</p>
-                      <p>150000<span>руб.</span></p>
+                      </div>
+                      <img src="img/good2.jpg">
+                      <p>Аккумулятор</p>
+                      <p class="price-complect">150000 руб.</p>
                     </div>
 
-                    <div class="col-md-3">
-                        <div class="checkbox">
+                    <div class="col-xs-4 col-sm-3  col-md-3 complect-block-good">
+                        <div class="checkbox text-left">
                         <label>
                         <input type="checkbox" id="checkboxWarning" value="option1">
                         </label>
-                        </div>
-                      <img src="img/goods/good1.png">
-                      <p>Аккамулятор</p>
-                      <p>150000<span>руб.</span></p>
+                      </div>
+                      <img src="img/good2.jpg">
+                      <p>Аккумулятор</p>
+                      <p class="price-complect">150000 руб.</p>
                     </div>
 
-                    <div class="col-md-3">
-                        <div class="checkbox">
+                    <div class="col-xs-4 col-sm-3  col-md-3 complect-block-good">
+                        <div class="checkbox text-left">
                         <label>
                         <input type="checkbox" id="checkboxWarning" value="option1">
                         </label>
-                        </div>
-                      <img src="img/goods/good1.png">
-                      <p>Аккамулятор</p>
-                      <p>150000<span>руб.</span></p>
+                      </div>
+                      <img src="img/good2.jpg">
+                      <p>Аккумулятор</p>
+                      <p class="price-complect">150000 руб.</p>
                     </div>
+
+                   
                     
                   </div>
 
-                  <!-- input modal -->
-                  <div clas="row">
-                    <div class="col-md-8 text-left">
-                      <form class="form-inline ">
-                        <div class="form-group">
-                        <label for="exampleInputName2">ФИО</label>
-                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-                        </div>
-                        <div class="form-group">
-                        <label for="exampleInputEmail2">Телефон</label>
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-                        </div>                        
-                      </form>
-                      </div>
-                      <div class="col-md-4">
-                        <button>Отправить заявку</button>
-                      </div>                  
+              
+                  
 
                   </div>
+                      <!-- input modal -->
+                  <div clas="row">
+                    <div class="col-md-12 text-left">
+                      <form class="form-inline order-form">
+                        <div class="form-group">
+                       
+                        <input type="text" class="form-control pull-left" id="exampleInputName2" placeholder="ФИО">
+                        </div>
+                        <div class="form-group">
+                      
+                        <input type="email" class="form-control pull-left" id="exampleInputEmail2" placeholder="Телефон">
+                        </div>
 
-                </div>
-               
-            </div>
-          </div>
+                        <div class="form-group">
+                        <button class="catalog-btn pull-left">Отправить заявку</button>
+                         </div>                      
+                      </form>
+                      </div>
+                      <!-- <div class="col-md-4">
+                        
+                      </div>  -->                 
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
 
-          </div>
-          </div>      
-      </div><!-- /Good1 -->
+
+     <!-- /Good1 -->
 
 
    
-     
-
-
-<!--  <div class="btn-assorti container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-      <button class="catalog-btn">Каталог продукции</button>
-      <button class="call-us-btn">Связаться с нами</button>
-        
-      </div>
-    </div>
-      
-    </div> -->
-
-
-      <div class="btn-assorti container-fluid">
+    <div class="btn-assorti container-fluid">
       <div class="row">
        <div class="col-md-12">
-        <button class="call-us-btn">Связаться с нами</button>
+        <button class="call-us-btn" data-toggle="modal" data-target="#Modalcall">Связаться с нами</button>
         <button class="catalog-btn">Каталог продукции</button>
       </div>
       </div>
@@ -740,7 +740,7 @@
         </div>
       </div>
       <div class="master-block">
-       <button class="btn-border">Заказать выезд специалиста</button>
+       <button class="btn-border" data-toggle="modal" data-target="#Modalcall">Заказать выезд специалиста</button>
        </div>
     </div><!-- /Our ingeneer -->
     </div>
