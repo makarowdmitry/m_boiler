@@ -378,16 +378,17 @@ h2 {
 	font-size: 15px;
 }
 .optins-goods img {
-	width: 18px;
+	width: 27px;
 	float: left;
 	margin-right: 15px;
 }
 
-.optins-goods img:first-child {
+
+/*.optins-goods img:first-child {
 	width: 10px;
 	float: left;
 	margin-right: 15px;
-}
+}*/
 
 .block-more-good {
 	background-color: #448ab2;
@@ -620,6 +621,75 @@ h2 {
 	color:#8e9198;
 	margin-top: 10px;
 }
+
+/*Modal window*/
+
+/*.modal-goods-body {
+	width: 60%;
+}*/
+.modal-goods h4.title-goods {
+	color: #f09f0b;
+	font-size: 28px;
+	margin-top: 0px;
+	padding-top: 0px;
+
+
+}
+.modal-goods .block-image img{
+	max-width: 100%;
+}
+
+.row-options {
+	margin-top: 20px;
+}
+
+.row-options p {
+	font-size: 12px;
+	float: left;
+}
+
+.row-options img {
+
+	float: left;
+}
+
+.row-options img {
+	width: 27px;
+	float: left;
+	margin:0px 15px 10px 0px;
+}
+
+.price-block-modal p {
+	color: #448ab2;
+	font-size: 27px;
+
+}
+
+.price-block-modal p span {
+	color: #303030;
+	font-size: 14px;
+
+}
+
+.modal-goods .description-text {
+	padding: 15px;
+
+}
+
+
+.table-options tr td:first-child {
+	font-weight: bold;
+}
+
+table.table-options {
+	padding: 15px;
+}
+
+.modal-header {
+	border: 0px;
+}
+
+
 
 
 /*Netbook version*/
@@ -931,7 +1001,8 @@ h2 {
 
 
 }
-	
+
+
 	
 	
 }
